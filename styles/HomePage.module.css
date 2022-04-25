@@ -1,0 +1,39 @@
+.crudContainer {
+  align-self: center;
+  width: 40rem;
+}
+
+.pokemonGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 40rem);
+  align-self: center;
+  width: 40rem;
+}
+
+.pokemon {
+  display: grid;
+  grid-template-columns: 4rem 0px 8rem 0px 8rem 0px 4rem 0px 4rem 0px 4rem;
+  align-items: center;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.pokemonColumn {
+  padding: 1rem;
+  align-self: center;
+}
+
+.separator {
+  border-right: 1px solid black;
+  width: 0px;
+  height: 100%;
+}
+
+.pokemon:last-child {
+  border-bottom: 1px solid black;
+}
+
+.pokeInput {
+
+}
